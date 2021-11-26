@@ -1,0 +1,17 @@
+{
+  "name": "typescript-nodemon-top-level-await-example",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon main.ts"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.112",
+    "@types/node": "^16.11.10",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
+  }
+}
